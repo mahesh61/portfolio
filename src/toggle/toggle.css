@@ -27,3 +27,11 @@
     cursor: pointer;
     transition: .7s ease-out;
 }
+
+@media screen and (max-width:480px) {
+    .t {
+        right: 50px;
+        margin: 0px;
+        padding: 0px;
+    }
+}

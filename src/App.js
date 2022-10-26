@@ -9,22 +9,29 @@ import { useContext } from "react";
 import Skills from "./skills/Skills";
 
 const App = () => {
-  const theme = useContext(ThemeContext);
-  const darkMode = theme.state.darkMode;
-  return (
-    <div
-      style={{
-        backgroundColor: darkMode ? "#222" : "white",
-        color: darkMode && "white",
-      }}
-    >
-      <Toggle />
-      <Intro />
-      <About />
-      <Skills />
-      <Contact />
-    </div>
-  );
+    const theme = useContext(ThemeContext);
+    const darkMode = theme.state.darkMode;
+    return ( <
+        div style = {
+            {
+                transition: "1S ease-out",
+                backgroundColor: darkMode ? "#222" : "white",
+                color: darkMode && "white",
+            }
+        } >
+        <
+        Toggle / >
+        <
+        Intro / >
+        <
+        About / >
+        <
+        Skills / >
+        <
+        Contact / >
+        <
+        /div>
+    );
 };
 
 export default App;

@@ -37,7 +37,7 @@
 }
 
 .c-title {
-    font-size: 60px;
+    font-size: 50px;
     width: 80%;
 }
 
@@ -80,9 +80,37 @@ textarea {
 
 button {
     border: none;
-    padding: 15px;
+    padding: 10px;
     background-color: #59b256;
     color: white;
     font-weight: 500;
     cursor: pointer;
+}
+
+@media screen and (max-width:480px) {
+    .c-wrapper {
+        flex-direction: column;
+        padding: 0px 50px;
+    }
+    .c-title {
+        font-size: 30px;
+    }
+    .c-info-itrm {
+        width: 100%;
+        margin: 20px 0px;
+    }
+    form {
+        margin-top: 0px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    input {
+        width: 35%;
+        height: 40px;
+        margin-left: 0px;
+        margin: 10px;
+    }
+    button {
+        margin-top: 10px;
+    }
 }

@@ -75,6 +75,7 @@
     height: 100%;
     object-fit: cover;
     position: absolute;
+    bottom: -10px;
 }
 
 .i-bg {
@@ -85,4 +86,17 @@
     position: absolute;
     top: 0px;
     right: 0px;
+}
+
+@media screen and (max-width:480px) {
+    .intro {
+        flex-direction: column;
+    }
+    .i-wrapper {
+        padding: 10px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 100%;
+    }
 }

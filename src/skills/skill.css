@@ -52,3 +52,25 @@
     object-fit: cover;
     border-radius: 50%;
 }
+
+@media screen and (max-width:480px) {
+    .skills {
+        width: 100%;
+        height: 150vh;
+    }
+    .s-container {
+        flex-direction: column;
+        gap: 5px;
+        margin: 0px;
+    }
+    .s-tittle {
+        flex-direction: column;
+        margin-bottom: 5px;
+    }
+    .s-list-tittle {
+        margin-bottom: 10px;
+    }
+    .s-list {
+        gap: 10px;
+    }
+}

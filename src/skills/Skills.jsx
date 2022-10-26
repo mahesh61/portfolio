@@ -76,15 +76,15 @@ const Skills = () => {
             <span className="s-name">MSSQL</span>
           </div>
           <div className="s-list-items">
-            <img src={g} alt="" className="s-img" />
+            {/* <img src={g} alt="" className="s-img" /> */}
             <span className="s-name"></span>
           </div>
           <div className="s-list-items">
-            <img src={g} alt="" className="s-img" />
+            {/* <img src={g} alt="" className="s-img" /> */}
             <span className="s-name"></span>
           </div>
           <div className="s-list-items">
-            <img src={g} alt="" className="s-img" />
+            {/* <img src={g} alt="" className="s-img" /> */}
             <span className="s-name"></span>
           </div>
         </div>
